@@ -4,6 +4,8 @@ public class StudentGC {
     public static void main(String[]args) {
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("<< STUDENT'S GRADE CALCULATOR >>");
+
         System.out.println("ENTER THE NUMBER OF SUBJECTS");
         int n = sc.nextInt();
         int total=0;
